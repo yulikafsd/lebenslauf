@@ -1,0 +1,21 @@
+:root {
+  --brand-color: #3f51b5;
+}
+/* or local naming for 1 element:
+.alert {
+  --alert-text-color: black;
+  --alert-accent-color: tomato;
+  or bind it to an attribute and later change var name value:
+  color: var(--alert-text-color);
+}
+ */
+
+body {
+    color: black;
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+}
+
+/* .link {
+    text-decoration-color: var(--brand-color, red);
+} 
+red is a fallback default value - used if var not found*/
