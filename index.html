@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -42,8 +46,10 @@
         <img src="./" alt="" width="" class="hero-img" />
         <p class="hero-suptitle">Your personal developer</p>
         <h1 class="hero-title">Julia Zahorovska</h1>
-        <p class="hero-subtitle">Full-stack Developer</p>
-        <p class="hero-subtitle">Data Scientist</p>
+        <ul class="hero-list list">
+          <li class="hero-list__item">Full-stack Developer</li>
+          <li class="hero-list__item">Data Scientist</li>
+        </ul>
         <a href="" class="hero-download link">Download CV</a>
       </section>
       <section class="projects">
@@ -104,6 +110,7 @@
             class="footer__social__github link"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to GitHub"
             >GitHub</a
           >
         </li>
@@ -113,6 +120,7 @@
             class="footer__social__LinkedIn link"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to LinkedIn"
             >LinkedIn</a
           >
         </li>
@@ -122,6 +130,7 @@
             class="footer__social__facebook link"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to Facebook"
             >Facebook</a
           >
         </li>
@@ -131,13 +140,14 @@
             class="footer__social__instagram link"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to Instagram"
             >Instagram</a
           >
         </li>
       </ul>
 
       <!-- Copyright -->
-      <div class="footer__copy">Created by JuZa.Dev</div>
+      <p class="footer__copy">&copy; Created by JuZa.Dev</p>
     </footer>
   </body>
 </html>
