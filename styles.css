@@ -1,6 +1,7 @@
 :root {
   --brand-color: #3f51b5;
 }
+
 /* or local naming for 1 element:
 .alert {
   --alert-text-color: black;
@@ -10,12 +11,12 @@
 }
  */
 
-body {
-    color: black;
-    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
-}
-
-/* .link {
+ /* .link {
     text-decoration-color: var(--brand-color, red);
 } 
 red is a fallback default value - used if var not found*/
+
+ body {
+    color: black;
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+}
